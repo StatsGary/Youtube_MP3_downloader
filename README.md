@@ -1,4 +1,6 @@
 # Youtube MP3 Downloader
+<img src='imgs/youtube.jpg'>
+
 A python module to take YouTube videos and convert to MP3. This is a wrapper function to download multiple MP3 files. 
 
 ## Preparing your data
