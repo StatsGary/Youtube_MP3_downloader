@@ -1,3 +1,14 @@
+""" 
+Name:       download_mp3s.py
+Author:     Gary Hutson
+Date:       13/06/2022
+Purpose:    Downloading YouTube videos and extracting the audio to make MP3 files for 
+            burning onto CDs, storing on media players or importing into other music
+            libraries
+Usage:      Prepare CSV and pass the relevant arguments into the download_multi_mp3s
+            function. This expects a CSV as contained in this example
+"""
+
 from youtubedownloader.getyoutubemp3 import get_youtube_mp3
 import pandas as pd
 from tqdm import tqdm
