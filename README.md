@@ -16,4 +16,4 @@ python download_mp3s_AP.py /
     --output_dir Downloads
 ```
 
-This will ask you to prompt for the YouTubeDownloads.csv, or whatever you have called your file. It will ask you which column the YouTube URL file is contained within and finally it will ask you for a directory to store the values in `output_dir`.
+This will ask you to prompt for the YouTubeDownloads.csv using the  `dataframe_csv` parameter, or whatever you have called your file. It will ask you which column the YouTube URL file in the parameter `url_field` and finally it will ask you for a directory to store the values in `output_dir`.
