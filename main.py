@@ -6,8 +6,8 @@ import os
 import glob
 
 def download_multi_mp3s(download_df, url_field, output_dir='Downloads', verbose=True):
-    if os.path.exists('Downloads'):
-        files = glob.glob('Downloads/*')
+    if os.path.exists(output_dir):
+        files = glob.glob(output_dir + '/*')
         for f in files:
             os.remove(f)
     

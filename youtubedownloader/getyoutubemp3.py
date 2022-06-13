@@ -13,5 +13,5 @@ def get_youtube_mp3(youtube_link, output_dir='.', verbose=True):
     os.rename(out_file, new_file)
     # Switch console printing on and off
     if verbose:
-        print('[DOWNLOAD COMPLETE] ' + yt.title + " has been successfully downloaded.")
+        print('\n[DOWNLOAD COMPLETE] ' + yt.title + " has been successfully downloaded.")
         print('-' * 90)
