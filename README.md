@@ -19,3 +19,16 @@ python download_mp3s_AP.py /
 ```
 
 This will ask you to prompt for the YouTubeDownloads.csv using the  `dataframe_csv` parameter, or whatever you have called your file. It will ask you which column the YouTube URL file in the parameter `url_field` and finally it will ask you for a directory to store the values in `output_dir`.
+
+## Setting up your environment
+
+I used `python==3.9.7` for this demo, so it would make sense for you to create a virtual environment with the same setup.
+
+To duplicate the package requirements, once you have created your virtual environment, use the following command to duplicate the requirements.txt:
+
+```
+pip install -r requirements.txt
+```
+
+## Closing
+If you have found this useful then please give the repository a star and happy downloading...
