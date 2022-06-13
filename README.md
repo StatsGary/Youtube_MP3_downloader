@@ -10,6 +10,10 @@ The data needs to be a CSV file. The CSV file attached will serve as a good exam
 The <a href='https://github.com/StatsGary/Youtube_MP3_downloader/blob/main/download_mp3s_AP.py'>download_mp3s_AP.py</a> file can be used as so:
 
 ```
-python download_mp3s_AP.py --dataframe_csv YoutubeDownloads.csv --url_field YoutubeLink --output_dir Downloads
-
+python download_mp3s_AP.py /
+    --dataframe_csv YoutubeDownloads.csv /
+    --url_field YoutubeLink /
+    --output_dir Downloads
 ```
+
+This will ask you to prompt for the YouTubeDownloads.csv, or whatever you have called your file. It will ask you which column the YouTube URL file is contained within and finally it will ask you for a directory to store the values in `output_dir`.
