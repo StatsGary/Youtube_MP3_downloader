@@ -7,4 +7,9 @@ The data needs to be a CSV file. The CSV file attached will serve as a good exam
 2. Download MP3s via the command line. I have included an argument parser for this purpose.
 
 ## Using the argument parser
-The <a href=''>download_mp3s_AP.py</a> file 
+The <a href='https://github.com/StatsGary/Youtube_MP3_downloader/blob/main/download_mp3s_AP.py'>download_mp3s_AP.py</a> file can be used as so:
+
+```
+python download_mp3s_AP.py --dataframe_csv YoutubeDownloads.csv --url_field YoutubeLink --output_dir Downloads
+
+```
